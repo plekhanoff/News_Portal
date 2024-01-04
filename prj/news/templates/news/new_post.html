@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Новые статьи и новости</title>
+    </head>
+    <body>
+        <div>
+            <h1><a href="/">Новые статьи и новости</a></h1>
+        </div>
+        <div>
+            <button>
+                <a href="{% url 'index'%}"> читать </a>
+            </button>
+        </div>
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
